@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>NilchEi Personality Traits (Continued)</name>
+  <packageId>Mlie.NilchEiPersonalityTraits</packageId>
+  <author>NilchEi</author>
+  <url>https://github.com/emipa606/NilchEiPersonalityTraits</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of NilchEis mod https://steamcommunity.com/sharedfiles/filedetails/?id=1696777453
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/NilchEiPersonalityTraits][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+Adds following traits into the game:
+
+[b]Competitive[/b]
+[list]
+    [*]Global learning speed +75% 
+    [*]-8 Mood debuff if sum of all skills is lower than that of any colonist.
+    [*]+12 Mood buff if sum of all skills is highest in the colony (when there are more than two colonists).
+[/list] 
+
+[b]Fickle[/b]
+[list]
+    [*]Changes passion occasionally (once per 40 days in average)
+[/list] 
+
+[b]Tsundere[/b]
+[list]
+    [*]More likely to slight and insult someone they like, and less likely to slight and insult someone they hate.
+    [*]Behaves normally towards spouse, fiance, and lover.
+    [*]-10% Pawn market value
+[/list] 
+
+[b]Determinist[/b] (for version 1.2+)
+[list]
+    [*]Once per 40 days in average, has a chance to trigger divination event that will randomly change the pawn's expectations (from extremely low to sky high) independent from colony wealth.
+    [*]After divination event: -35% global work speed if extremely low, -20% global work speed if very low, +20% global work speed if high, +35% global work speed if sky high expectations.
+    [*]For owners of Royalty DLC: if pawn has royal title of Acolyte and above, will stop having divination events and also lose one's current random expectation (and return to normal expectation behaviour) after random amount of days have passed.
+[/list] 
+
+[b]Repressive[/b] (for version 1.2+)
+[list]
+    [*]When minor/major mental break triggers, ignore it and add -5 mood penalty called 'Frustration' that lasts 60 days. Stacks up to 10.
+    [*]When extreme mental break triggers, guaranteed to go catatonic. All 'Frustration' stacks will be removed.
+[/list] 
+
+[b]Motivated[/b] (for version 1.4+)
+[list]
+    [*]While the pawn is inspired, grant +20 mood buff.
+[/list] 
+
+[b]Vehement[/b] (for version 1.4+)
+[list]
+    [*]Complete immunity to arrest and damage during mental break. Only applies to player colonists for balance reasons.
+    [*]Also grants invisibility during mental break to make AI recognise the pawn's immunity.
+[/list] 
+
+
+Compatible with any mods that don't change Slight and Insult workerClass.
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/][img]https://img.shields.io/github/v/release/emipa606/NilchEiPersonalityTraits?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  traits, personality</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+</ModMetaData>
