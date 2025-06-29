@@ -1,4 +1,4 @@
-# [NilchEi Personality Traits (Continued)]()
+# [NilchEi Personality Traits (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3376064300)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -84,4 +84,4 @@ Compatible with any mods that don't change Slight and Insult workerClass.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/NilchEiPersonalityTraits?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/) | tags:  traits, personality
+[![Image](https://img.shields.io/github/v/release/emipa606/NilchEiPersonalityTraits?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3376064300) | tags:  traits, personality

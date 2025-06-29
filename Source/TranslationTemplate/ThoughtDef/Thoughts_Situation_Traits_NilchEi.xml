@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: satisfied with my abilities -->
+  <Competitive.stages.satisfied_with_my_abilities.label>satisfied with my abilities</Competitive.stages.satisfied_with_my_abilities.label>
+  <!-- EN: I am the best in the colony! -->
+  <Competitive.stages.satisfied_with_my_abilities.description>I am the best in the colony!</Competitive.stages.satisfied_with_my_abilities.description>
+  <!-- EN: dissatisfied with my abilities -->
+  <Competitive.stages.dissatisfied_with_my_abilities.label>dissatisfied with my abilities</Competitive.stages.dissatisfied_with_my_abilities.label>
+  <!-- EN: There is someone better than me! I must improve myself. -->
+  <Competitive.stages.dissatisfied_with_my_abilities.description>There is someone better than me! I must improve myself.</Competitive.stages.dissatisfied_with_my_abilities.description>
+  <!-- EN: motivated -->
+  <Motivated.stages.motivated.label>motivated</Motivated.stages.motivated.label>
+  <!-- EN: This is a moment that I've been waiting for to display my skills! -->
+  <Motivated.stages.motivated.description>This is a moment that I've been waiting for to display my skills!</Motivated.stages.motivated.description>
+  <!-- EN: frustrated -->
+  <Repression.stages.frustrated.label>frustrated</Repression.stages.frustrated.label>
+  <!-- EN: My mood was poor, but I chose to repress my frustration instead of acting out. -->
+  <Repression.stages.frustrated.description>My mood was poor, but I chose to repress my frustration instead of acting out.</Repression.stages.frustrated.description>
+</LanguageData>

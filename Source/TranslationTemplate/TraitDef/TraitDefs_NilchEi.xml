@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: competitive -->
+  <Competitive.degreeDatas.competitive.label>competitive</Competitive.degreeDatas.competitive.label>
+  <!-- EN: {PAWN_nameDef} is driven to be the best, and will not be satisfied until sum of {PAWN_possessive} skills are better than anyone else in the colony. -->
+  <Competitive.degreeDatas.competitive.description>{PAWN_nameDef} is driven to be the best, and will not be satisfied until sum of {PAWN_possessive} skills are better than anyone else in the colony.</Competitive.degreeDatas.competitive.description>
+  <!-- EN: determinist -->
+  <Determinist.degreeDatas.determinist.label>determinist</Determinist.degreeDatas.determinist.label>
+  <!-- EN: {PAWN_nameDef} believes all events are predetermined in advance, and will adjust {PAWN_possessive} expectations and work speed appropriately after deducing {PAWN_possessive} fate from esoteric signs. If {PAWN_nameDef} gains privileged title such as Acolyte and above, {PAWN_pronoun} will take {PAWN_possessive} status as natural right and eventually stop having random expectations. -->
+  <Determinist.degreeDatas.determinist.description>{PAWN_nameDef} believes all events are predetermined in advance, and will adjust {PAWN_possessive} expectations and work speed appropriately after deducing {PAWN_possessive} fate from esoteric signs. If {PAWN_nameDef} gains privileged title such as Acolyte and above, {PAWN_pronoun} will take {PAWN_possessive} status as natural right and eventually stop having random expectations.</Determinist.degreeDatas.determinist.description>
+  <!-- EN: fickle -->
+  <Fickle.degreeDatas.fickle.label>fickle</Fickle.degreeDatas.fickle.label>
+  <!-- EN: {PAWN_nameDef} tends to get bored in particular subject after some time, and will occassionally changes {PAWN_possessive} passion. -->
+  <Fickle.degreeDatas.fickle.description>{PAWN_nameDef} tends to get bored in particular subject after some time, and will occassionally changes {PAWN_possessive} passion.</Fickle.degreeDatas.fickle.description>
+  <!-- EN: motivated -->
+  <Motivated.degreeDatas.motivated.label>motivated</Motivated.degreeDatas.motivated.label>
+  <!-- EN: {PAWN_nameDef} dreams of having an perfect moment to demonstrate {PAWN_possessive} interests. {PAWN_pronoun} becomes truly motivated during inspiration, and very little can hamper {PAWN_possessive} mood during this period. -->
+  <Motivated.degreeDatas.motivated.description>{PAWN_nameDef} dreams of having an perfect moment to demonstrate {PAWN_possessive} interests. {PAWN_pronoun} becomes truly motivated during inspiration, and very little can hamper {PAWN_possessive} mood during this period.</Motivated.degreeDatas.motivated.description>
+  <!-- EN: repressive -->
+  <Repressive.degreeDatas.repressive.label>repressive</Repressive.degreeDatas.repressive.label>
+  <!-- EN: {PAWN_nameDef} responds to bad situation by suppressing {PAWN_possessive} emotions instead of acting out. While this makes {PAWN_possessive} seem outwardly steadfast, bottling up negative emotions do harm {PAWN_possessive} mood which can cascade into catatonia. -->
+  <Repressive.degreeDatas.repressive.description>{PAWN_nameDef} responds to bad situation by suppressing {PAWN_possessive} emotions instead of acting out. While this makes {PAWN_possessive} seem outwardly steadfast, bottling up negative emotions do harm {PAWN_possessive} mood which can cascade into catatonia.</Repressive.degreeDatas.repressive.description>
+  <!-- EN: tsundere -->
+  <Tsundere.degreeDatas.tsundere.label>tsundere</Tsundere.degreeDatas.tsundere.label>
+  <!-- EN: {PAWN_nameDef} is too embarassed to admit {PAWN_possessive} like towards someone who {PAWN_pronoun} doesn't have romantic relationship with, and will try to hide it through abuse. Ironically {PAWN_pronoun} acts much more reserved toward {PAWN_possessive} enemies.\n         -->
+  <Tsundere.degreeDatas.tsundere.description>{PAWN_nameDef} is too embarassed to admit {PAWN_possessive} like towards someone who {PAWN_pronoun} doesn't have romantic relationship with, and will try to hide it through abuse. Ironically {PAWN_pronoun} acts much more reserved toward {PAWN_possessive} enemies.
+        </Tsundere.degreeDatas.tsundere.description>
+  <!-- EN: vehement -->
+  <Vehement.degreeDatas.vehement.label>vehement</Vehement.degreeDatas.vehement.label>
+  <!-- EN: {PAWN_nameDef} becomes absolutely unstoppable when {PAWN_pronoun} is driven by {PAWN_possessive} most base emotions. For better or worse, it is almost impossible to disrupt {PAWN_nameDef} on mental break as {PAWN_pronoun} become immune against arrest and damage, and everyone knows to stay out of {PAWN_possessive} path. -->
+  <Vehement.degreeDatas.vehement.description>{PAWN_nameDef} becomes absolutely unstoppable when {PAWN_pronoun} is driven by {PAWN_possessive} most base emotions. For better or worse, it is almost impossible to disrupt {PAWN_nameDef} on mental break as {PAWN_pronoun} become immune against arrest and damage, and everyone knows to stay out of {PAWN_possessive} path.</Vehement.degreeDatas.vehement.description>
+</LanguageData>

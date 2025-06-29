@@ -26,7 +26,7 @@ public class MentalStateWorker_Determinist : MentalStateWorker
             }
 
             var currentTitleInFaction = pawn.royalty.GetCurrentTitleInFaction(item);
-            if (currentTitleInFaction == null || currentTitleInFaction.def.minExpectation == null)
+            if (currentTitleInFaction?.def.minExpectation == null)
             {
                 continue;
             }

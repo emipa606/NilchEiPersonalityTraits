@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: divination -->
+  <DeterministDivination.label>divination</DeterministDivination.label>
+  <!-- EN: Mental state: Divination -->
+  <DeterministDivination.baseInspectLine>Mental state: Divination</DeterministDivination.baseInspectLine>
+  <!-- EN: {0} has perceived signs of [PAWN_possessive] near future, and has changed [PAWN_possessive] expectations. -->
+  <DeterministDivination.beginLetter>{0} has perceived signs of [PAWN_possessive] near future, and has changed [PAWN_possessive] expectations.</DeterministDivination.beginLetter>
+  <!-- EN: {0} has changed [PAWN_possessive] expectations. -->
+  <DeterministDivination.recoveryMessage>{0} has changed [PAWN_possessive] expectations.</DeterministDivination.recoveryMessage>
+  <!-- EN: boredom -->
+  <RandomPassionChange.label>boredom</RandomPassionChange.label>
+  <!-- EN: Mental state: Boredom -->
+  <RandomPassionChange.baseInspectLine>Mental state: Boredom</RandomPassionChange.baseInspectLine>
+  <!-- EN: {0} has become bored with [PAWN_possessive] current interests, and has changed [PAWN_possessive] passion. -->
+  <RandomPassionChange.beginLetter>{0} has become bored with [PAWN_possessive] current interests, and has changed [PAWN_possessive] passion.</RandomPassionChange.beginLetter>
+  <!-- EN: {0} has changed [PAWN_possessive] interests. -->
+  <RandomPassionChange.recoveryMessage>{0} has changed [PAWN_possessive] interests.</RandomPassionChange.recoveryMessage>
+</LanguageData>

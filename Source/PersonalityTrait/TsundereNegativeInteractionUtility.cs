@@ -5,9 +5,9 @@ namespace PersonalityTrait;
 
 public static class TsundereNegativeInteractionUtility
 {
-    public const float AbrasiveSelectionChanceFactor = 2.3f;
+    private const float AbrasiveSelectionChanceFactor = 2.3f;
 
-    private static readonly SimpleCurve CompatibilityFactorCurve =
+    private static readonly SimpleCurve compatibilityFactorCurve =
     [
         new CurvePoint(-2.5f, 4f),
         new CurvePoint(-1.5f, 3f),
@@ -18,7 +18,7 @@ public static class TsundereNegativeInteractionUtility
         new CurvePoint(3f, 0.4f)
     ];
 
-    private static readonly SimpleCurve OpinionFactorCurve =
+    private static readonly SimpleCurve opinionFactorCurve =
     [
         new CurvePoint(-100f, 6f),
         new CurvePoint(-50f, 4f),
@@ -28,7 +28,7 @@ public static class TsundereNegativeInteractionUtility
         new CurvePoint(100f, 0f)
     ];
 
-    private static readonly SimpleCurve TsundereCompatibilityFactorCurve =
+    private static readonly SimpleCurve tsundereCompatibilityFactorCurve =
     [
         new CurvePoint(-2.5f, 0.4f),
         new CurvePoint(-1.5f, 0.5f),
@@ -39,7 +39,7 @@ public static class TsundereNegativeInteractionUtility
         new CurvePoint(3.5f, 2.5f)
     ];
 
-    private static readonly SimpleCurve TsundereOpinionFactorCurve =
+    private static readonly SimpleCurve tsundereOpinionFactorCurve =
     [
         new CurvePoint(-100f, 0f),
         new CurvePoint(-50f, 0.1f),
@@ -60,13 +60,13 @@ public static class TsundereNegativeInteractionUtility
         if (initiator.story.traits.HasTrait(PersonalityTraitDefOf.Tsundere) &&
             !LovePartnerRelationUtility.LovePartnerRelationExists(initiator, recipient))
         {
-            num *= TsundereOpinionFactorCurve.Evaluate(initiator.relations.OpinionOf(recipient));
-            num *= TsundereCompatibilityFactorCurve.Evaluate(initiator.relations.CompatibilityWith(recipient));
+            num *= tsundereOpinionFactorCurve.Evaluate(initiator.relations.OpinionOf(recipient));
+            num *= tsundereCompatibilityFactorCurve.Evaluate(initiator.relations.CompatibilityWith(recipient));
         }
         else
         {
-            num *= OpinionFactorCurve.Evaluate(initiator.relations.OpinionOf(recipient));
-            num *= CompatibilityFactorCurve.Evaluate(initiator.relations.CompatibilityWith(recipient));
+            num *= opinionFactorCurve.Evaluate(initiator.relations.OpinionOf(recipient));
+            num *= compatibilityFactorCurve.Evaluate(initiator.relations.CompatibilityWith(recipient));
         }
 
         if (initiator.story.traits.HasTrait(TraitDefOf.Abrasive))

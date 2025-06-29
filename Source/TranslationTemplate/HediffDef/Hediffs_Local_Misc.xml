@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: determinist expectation -->
+  <FatedExpectation.label>determinist expectation</FatedExpectation.label>
+  <!-- EN: Determinist sets their expectations based on what they perceive to be signs of their near future, rather than their materialistic situation. Will work harder when one has high expectations, and work slower when one has low expectations. -->
+  <FatedExpectation.description>Determinist sets their expectations based on what they perceive to be signs of their near future, rather than their materialistic situation. Will work harder when one has high expectations, and work slower when one has low expectations.</FatedExpectation.description>
+  <!-- EN: extremely low -->
+  <FatedExpectation.stages.extremely_low.label>extremely low</FatedExpectation.stages.extremely_low.label>
+  <!-- EN: very low -->
+  <FatedExpectation.stages.very_low.label>very low</FatedExpectation.stages.very_low.label>
+  <!-- EN: low -->
+  <FatedExpectation.stages.low.label>low</FatedExpectation.stages.low.label>
+  <!-- EN: moderate -->
+  <FatedExpectation.stages.moderate.label>moderate</FatedExpectation.stages.moderate.label>
+  <!-- EN: high -->
+  <FatedExpectation.stages.high.label>high</FatedExpectation.stages.high.label>
+  <!-- EN: sky high -->
+  <FatedExpectation.stages.sky_high.label>sky high</FatedExpectation.stages.sky_high.label>
+  <!-- EN: vehemence -->
+  <VehementBuff.label>vehemence</VehementBuff.label>
+  <!-- EN: “Now if everyone will just stay out of my way, then nobody will get hurt.” -->
+  <VehementBuff.description>“Now if everyone will just stay out of my way, then nobody will get hurt.”</VehementBuff.description>
+</LanguageData>

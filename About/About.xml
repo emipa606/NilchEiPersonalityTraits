@@ -11,6 +11,7 @@
     <li>1.3</li>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -97,6 +98,6 @@ Compatible with any mods that don't change Slight and Insult workerClass.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/][img]https://img.shields.io/github/v/release/emipa606/NilchEiPersonalityTraits?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  traits, personality</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3376064300][img]https://img.shields.io/github/v/release/emipa606/NilchEiPersonalityTraits?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  traits, personality</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
 </ModMetaData>
