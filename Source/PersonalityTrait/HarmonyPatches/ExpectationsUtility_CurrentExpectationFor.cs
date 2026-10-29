@@ -5,7 +5,7 @@ using Verse;
 namespace PersonalityTrait;
 
 [HarmonyPatch(typeof(ExpectationsUtility), nameof(ExpectationsUtility.CurrentExpectationFor), typeof(Pawn))]
-internal class ExpectationsUtility_CurrentExpectationFor
+internal static class ExpectationsUtility_CurrentExpectationFor
 {
     public static void Postfix(Pawn p, ref ExpectationDef __result)
     {

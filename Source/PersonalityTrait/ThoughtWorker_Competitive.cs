@@ -43,6 +43,11 @@ public class ThoughtWorker_Competitive : ThoughtWorker
             }
         }
 
-        return differentSkillLevels ? ThoughtState.ActiveAtStage(0) : false;
+        if (differentSkillLevels)
+        {
+            return ThoughtState.ActiveAtStage(0);
+        }
+
+        return false;
     }
 }

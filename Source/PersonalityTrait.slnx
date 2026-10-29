@@ -3,4 +3,22 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="PersonalityTrait/PersonalityTrait.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/Patches.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Incidents_Personality.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/Hediffs_Local_Misc.xml" />
+    <File Path="../1.7/Defs/MentalStates_Mood.xml" />
+    <File Path="../1.7/Defs/Thoughts_Situation_Traits_NilchEi.xml" />
+    <File Path="../1.7/Defs/TraitDefs_NilchEi.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>

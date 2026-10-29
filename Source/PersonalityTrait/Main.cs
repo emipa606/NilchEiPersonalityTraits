@@ -1,3 +1,4 @@
+using System.Reflection;
 using HarmonyLib;
 using Verse;
 
@@ -8,6 +9,6 @@ internal static class Main
 {
     static Main()
     {
-        new Harmony("com.nilch.personalitytrait").PatchAll();
+        new Harmony("com.nilch.personalitytrait").PatchAll(Assembly.GetExecutingAssembly());
     }
 }

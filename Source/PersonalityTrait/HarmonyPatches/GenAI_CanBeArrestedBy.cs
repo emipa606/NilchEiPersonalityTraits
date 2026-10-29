@@ -6,7 +6,7 @@ using Verse.AI;
 namespace PersonalityTrait.HarmonyPatches;
 
 [HarmonyPatch(typeof(GenAI), nameof(GenAI.CanBeArrestedBy))]
-internal class GenAI_CanBeArrestedBy
+internal static class GenAI_CanBeArrestedBy
 {
     public static void Postfix(Pawn pawn, Pawn arrester, ref bool __result)
     {

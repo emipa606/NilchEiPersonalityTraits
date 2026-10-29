@@ -29,10 +29,7 @@ public class ThoughtWorker_Vehement : ThoughtWorker
 
         var hediff3 = HediffMaker.MakeHediff(HediffDef.Named("PsychicInvisibility"), p);
         var hediffComp_Disappears = hediff3.TryGetComp<HediffComp_Disappears>();
-        if (hediffComp_Disappears != null)
-        {
-            hediffComp_Disappears.ticksToDisappear = 900000;
-        }
+        hediffComp_Disappears?.ticksToDisappear = 900000;
 
         p.health.AddHediff(hediff3);
         p.health.AddHediff(PersonalityTraitDefOf.VehementBuff);
